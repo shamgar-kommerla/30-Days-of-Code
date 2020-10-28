@@ -11,10 +11,11 @@ int main() {
 
     try {
        num = stoi(str);
-        throw 2;
+        throw 1;
     }catch (exception e) {
         cout << "Bad String" << endl;
-    }catch(...){
+    }
+    catch(...){
         cout << num << endl;
     }
 
